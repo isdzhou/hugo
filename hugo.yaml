@@ -1,4 +1,4 @@
-baseURL: https://yourname.github.io/  # 改成你的域名
+baseURL: https://blog.dzhou.net/  # 改成你的域名
 languageCode: zh-cn
 title: dzhou
 theme: PaperMod
@@ -34,32 +34,10 @@ params:
   ShowWordCount: true        # 显示字数统计
   ShowRssButtonInSectionTermList: true
   
-  # 首页模式（三选一）
-  # homeInfoParams:          # Home-Info 模式
-  #   Title: "欢迎来到我的博客"
-  #   Content: "这里是描述文字"
-  
-  # profileMode:                # Profile 模式（我选的这个）
-  #   enabled: true
-  #   title: "My Wilderness"    # 主标题
-  #   subtitle: "记录、思考、探索"
-  #   imageUrl: "/images/avatar.jpg"  # 头像路径
-  #   imageWidth: 120
-  #   imageHeight: 120
-  #   buttons:
-  #     - name: 旷野
-  #       url: /posts/
-  #     - name: 关于
-  #       url: /about/
-  
-  # 社交图标
-  # socialIcons:
-  #   - name: github
-  #     url: "https://github.com/yourname"
-  #     title: "访问我的 GitHub"
-  #   - name: email
-  #     url: "mailto:your@email.com"
-  #     title: "发送邮件给我"
+  # 首页模式
+  homeInfoParams:          # Home-Info 模式
+    Title: "一万年太久，只争朝夕"
+    Content: "世上本无事，庸人自扰之。"
 
 # 菜单配置
 menu:
