@@ -1,0 +1,13 @@
+/* 行内代码 + 代码块通用字体 */
+code {
+    font-family: "Monaspace Neon Light", "霞鹜文楷等宽", "JetBrains Mono", "Microsoft YaHei", "PingFang SC", monospace;
+    font-size: 0.9em;
+}
+
+/* 代码块（```包裹的多行代码）单独调整 */
+.highlight pre,
+pre code {
+    font-family: "Monaspace Neon Light", "霞鹜文楷等宽", "JetBrains Mono", "Microsoft YaHei", "PingFang SC", monospace;
+    font-size: 0.85em;
+    line-height: 1.6;
+}

@@ -27,9 +27,9 @@ params:
   
   # 显示设置
   ShowReadingTime: true      # 显示阅读时间
-  ShowShareButtons: true     # 显示分享按钮
+  ShowShareButtons: false     # 显示分享按钮
   ShowPostNavLinks: true     # 显示上一篇/下一篇
-  ShowBreadCrumbs: true      # 显示面包屑导航
+  ShowBreadCrumbs: false      # 显示面包屑导航
   ShowCodeCopyButtons: true  # 显示代码复制按钮
   ShowWordCount: true        # 显示字数统计
   ShowRssButtonInSectionTermList: true
