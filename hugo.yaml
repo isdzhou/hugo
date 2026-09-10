@@ -1,5 +1,4 @@
 baseURL: https://blog.dzhou.net/ # 改成你的域名
-languageCode: zh-cn
 title: dzhou
 theme: PaperMod
 # 永久性链接
@@ -19,7 +18,7 @@ pagination:
 # 语言设置
 languages:
   zh:
-    languageName: "中文"
+    label: "中文"
     weight: 1
 
 # PaperMod 主题配置
