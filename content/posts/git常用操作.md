@@ -1,9 +1,10 @@
 ---
 title: "Git常用操作"
 date: 2026-03-16T10:47:32+08:00
+slug: "ceb4bf27"
 draft: false
 tags: ["git"]
-categories: ["编程"]
+categories: ["计算机"]
 description: ""
 ---
 

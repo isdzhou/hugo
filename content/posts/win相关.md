@@ -1,9 +1,10 @@
 ---
 title: "Win相关"
 date: 2024-11-07T11:48:13+08:00
+slug: "78684483"
 draft: false
 tags: ["win"]
-categories: ["win"]
+categories: ["计算机"]
 description: ""
 ---
 
