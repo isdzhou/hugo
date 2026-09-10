@@ -64,6 +64,8 @@ outputs:
   home:
     - HTML
     - JSON
+disableKinds:
+  - rss
 
 #主题
 markup:
