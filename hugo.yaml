@@ -1,4 +1,4 @@
-baseURL: https://blog.dzhou.net/  # 改成你的域名
+baseURL: https://blog.dzhou.net/ # 改成你的域名
 languageCode: zh-cn
 title: dzhou
 theme: PaperMod
@@ -24,18 +24,18 @@ params:
   # 基础信息
   author: "dzhou"
   description: "你的网站描述"
-  
+
   # 显示设置
-  ShowReadingTime: true      # 显示阅读时间
-  ShowShareButtons: false     # 显示分享按钮
-  ShowPostNavLinks: true     # 显示上一篇/下一篇
-  ShowBreadCrumbs: false      # 显示面包屑导航
-  ShowCodeCopyButtons: true  # 显示代码复制按钮
-  ShowWordCount: true        # 显示字数统计
+  ShowReadingTime: true # 显示阅读时间
+  ShowShareButtons: false # 显示分享按钮
+  ShowPostNavLinks: true # 显示上一篇/下一篇
+  ShowBreadCrumbs: false # 显示面包屑导航
+  ShowCodeCopyButtons: true # 显示代码复制按钮
+  ShowWordCount: true # 显示字数统计
   ShowRssButtonInSectionTermList: true
-  
+
   # 首页模式
-  homeInfoParams:          # Home-Info 模式
+  homeInfoParams: # Home-Info 模式
     Title: "一万年太久，只争朝夕"
     Content: "世上本无事，庸人自扰之。"
 
@@ -60,3 +60,12 @@ outputs:
   home:
     - HTML
     - JSON
+
+#主题
+markup:
+  highlight:
+    style: "onedark"
+    lineNos: false
+    codeFences: true
+    guessSyntax: true
+    noClasses: false
