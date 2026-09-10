@@ -1,0 +1,17 @@
+# Hugo 构建生成的文件
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
+
+# Hugo 缓存
+.hugo_build.lock
+
+# 常见系统/编辑器文件
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# 环境变量文件
+.env

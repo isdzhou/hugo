@@ -1,0 +1,72 @@
+---
+title: "Git常用操作"
+date: 2026-03-16T10:47:32+08:00
+draft: false
+tags: ["git"]
+categories: ["编程"]
+description: ""
+---
+
+## name email
+
+```shell
+git config --global user.name "dzho"
+git config --global user.email "lonelyzhou@yeah.net"
+```
+
+## 验证
+
+```shell
+git config --list
+```
+
+## 初始化
+
+```shell
+git init
+```
+
+## 将文件的修改添加到暂存区
+
+```shell
+git add <文件名>
+git add . # 添加所有变化（新增、修改、删除）
+git add -A # 同上，添加所有变化
+```
+
+## 将暂存区的内容提交到本地仓库
+
+```shell
+git commit -m "提交说明信息"
+```
+
+## 查看远程仓库信息（默认别名是 origin）
+
+```shell
+git remote -v
+```
+
+## 添加远程仓库别名
+
+```shell
+git remote add <别名> <远程仓库URL>
+```
+
+## 首次推送时，使用 -u 设置上游关联，后续可直接用 `git push`
+
+```shell
+git push -u origin main
+```
+
+## 撤销提交
+
+```shell
+# 撤销上一次提交
+git revert HEAD
+
+# 撤销指定的提交
+git revert <commit-hash>
+
+# 推送到远程
+git push origin <branch-name>
+```
