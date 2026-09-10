@@ -2,6 +2,9 @@ baseURL: https://blog.dzhou.net/ # 改成你的域名
 languageCode: zh-cn
 title: dzhou
 theme: PaperMod
+# 永久性链接
+permalinks:
+  posts: "/:slug/"
 
 # 启用 emoji 支持
 enableEmoji: true
