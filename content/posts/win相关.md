@@ -47,6 +47,14 @@ Host github.com
     HostName github.com
     User git
     IdentityFile ~/.ssh/GitHub
+
+# 添加ssh密钥代理
+ssh-add ~/.ssh/id_rsa
+# 查看
+ssh-add -l
+# 删除
+ssh-add -d ~/.ssh/id_rsa   # 删除指定密钥
+ssh-add -D                  # 删除全部
 ```
 
 ## 隐藏设置主页
