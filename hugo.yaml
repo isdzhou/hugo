@@ -26,6 +26,8 @@ params:
   # 基础信息
   author: "dzhou"
   description: "你的网站描述"
+  ShowToc: true
+  TocOpen: true
 
   # 显示设置
   ShowReadingTime: true # 显示阅读时间
