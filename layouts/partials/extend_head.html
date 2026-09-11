@@ -1,0 +1,24 @@
+<style>
+  @media (min-width: 1400px) {
+    .toc {
+      position: fixed;
+      top: 100px;
+      right: max(10px, calc((100vw - var(--main-width)) / 2 - 300px));
+      width: 260px;
+      max-height: 80vh;
+      overflow-y: auto;
+      background: var(--entry);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 10px 15px;
+      z-index: 10;
+    }
+  }
+
+  @media (max-width: 1399px) {
+    .toc {
+      position: static;
+      width: auto;
+    }
+  }
+</style>
