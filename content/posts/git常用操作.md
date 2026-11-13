@@ -11,8 +11,8 @@ description: ""
 ## name email
 
 ```shell
-git config --global user.name "dzho"
-git config --global user.email "lonelyzhou@yeah.net"
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
 ```
 
 ## 验证
@@ -53,7 +53,9 @@ git remote -v
 git remote add <别名> <远程仓库URL>
 ```
 
-## 首次推送时，使用 -u 设置上游关联，后续可直接用 `git push`
+## 首次推送
+
+首次推送时使用 `-u` 设置上游关联，之后可直接用 `git push`。
 
 ```shell
 git push -u origin main

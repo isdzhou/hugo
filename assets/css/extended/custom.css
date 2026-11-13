@@ -1,13 +1,35 @@
-/* 行内代码 + 代码块通用字体 */
+/* 行内代码 + 代码块通用字体
+   等宽字体放前面；中文字体放最后，避免本机缺少等宽字体时回退成比例字体导致对齐错乱 */
+code,
+.highlight pre,
+pre code {
+    font-family: "Monaspace Neon Light", "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, "霞鹜文楷等宽", monospace, "Microsoft YaHei", "PingFang SC";
+}
+
 code {
-    font-family: "Monaspace Neon Light", "霞鹜文楷等宽", "JetBrains Mono", "Microsoft YaHei", "PingFang SC", monospace;
     font-size: 0.9em;
 }
 
 /* 代码块（```包裹的多行代码）单独调整 */
 .highlight pre,
 pre code {
-    font-family: "Monaspace Neon Light", "霞鹜文楷等宽", "JetBrains Mono", "Microsoft YaHei", "PingFang SC", monospace;
     font-size: 0.85em;
     line-height: 1.6;
+}
+
+/* 宽屏下目录悬浮在文章右侧 */
+@media (min-width: 1400px) {
+    .toc {
+        position: fixed;
+        top: 100px;
+        right: max(10px, calc((100vw - var(--main-width)) / 2 - 300px));
+        width: 260px;
+        max-height: 80vh;
+        overflow-y: auto;
+        background: var(--entry);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 10px 15px;
+        z-index: 10;
+    }
 }

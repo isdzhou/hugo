@@ -10,9 +10,9 @@ description: ""
 
 ## winget 彩虹进度条
 
-```json
-# winget settings
+执行 `winget settings` 打开设置文件，加入：
 
+```json
 {
     "visual": {
         "progressBar": "rainbow"
@@ -31,7 +31,7 @@ reg.exe delete "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a
 
 ## win终端 ssh
 
-```shell
+```bash
 # .ssh 目录新建文件config
 # 保持心跳
 Host *
@@ -41,8 +41,8 @@ Host *
 Host name
     HostName ip
     User root
-  	Port 22
-    IdentityFile ~/.ssh/OpenCloudOS.pem
+    Port 22
+    IdentityFile ~/.ssh/server.pem
 
 Host github.com
     HostName github.com
@@ -80,3 +80,5 @@ start ms-cxh:localonly
 - **AutoAdminLogon**：数值数据设置为 `1` (表示开启自动登录)。
 - **DefaultUserName**：数值数据填入你的**账户名**（微软账户则填完整的邮箱地址）。
 - **DefaultPassword**：数值数据填入你的**登录密码**。如果这个项目不存在，需要手动新建。
+
+> 注意：密码会以明文保存在注册表中，任何能读取注册表的人都能看到。仅建议在不涉及敏感数据的个人设备上使用，或改用 Sysinternals 的 Autologon 工具（它会加密保存密码）。
